@@ -71,13 +71,6 @@ body {
   color: #555;
 }
 
-.footer {
-  background-color: #f4f4f4;
-  padding: 1rem 0;
-  text-align: center;
-  margin-top: 2rem;
-}
-
 .quote {
   background-color: #f0f0f0;
   padding: 80px 0;
@@ -214,4 +207,56 @@ body {
   line-height: 1.6;
 }
 
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 60px 0 30px;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #f0f0f0;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
 
