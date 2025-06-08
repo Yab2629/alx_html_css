@@ -1,0 +1,58 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+}
+
+.logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.hero {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
